@@ -1,0 +1,135 @@
+@font-face {
+    src: url('../css/fonts/NunitoSans-Regular.ttf');
+    font-family: "Nunito Sans";
+}
+
+@font-face {
+    src: url('../css/fonts/YesevaOne-Regular.ttf');
+    font-family: "Yeseva One";
+}
+
+body {
+    margin: 0;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1256px;
+    margin: 0 auto;
+}
+
+
+/* ************************ section-completed ************************ */
+
+.section-completed {
+    background-color: black;
+}
+
+.section-completed__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 107px;
+    padding-left: 90px;
+    padding-right: 90px;
+    font-size: 0.9em;
+}
+
+.section-completed__list {
+    display: flex;
+    list-style-type: none;
+    padding-left: 0;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+}
+
+.section-completed__list span {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+.section-completed__item {
+    width: 50%;
+    margin-bottom: 10px;
+}
+
+.section-completed__description {
+    width: 442px;
+    height: 390px;
+    margin-right: 50px;
+}
+
+.section-completed__images-list {
+    width: 624px;
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    margin: 0 0;
+    padding: 0 0;
+    justify-content: space-between;
+}
+
+.section-completed__images {
+    width: 679px;
+}
+
+.section-completed__title {
+    font-family: "Yeseva One";
+    text-transform: uppercase;
+    color: #E3B873;
+    margin-top: 65px;
+}
+
+.section-completed__text {
+    color: white;
+    font-family: "Nunito Sans";  
+    font-size: 0.8em;  
+}
+
+.section-completed__item {
+    color: white;
+    font-family: "Nunito Sans";   
+}
+
+.section-completed__item span:first-of-type {
+    font-family: "Yeseva One";
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.section-completed__images-item {
+    color: rgba(255, 255, 255, 0.3);
+    font-family: "Yeseva One";
+    text-transform: uppercase;
+}
+
+.images-item--selected {
+    color: #E3B873;
+    border-bottom: 2px solid #E3B873;
+}
+
+.section-completed__images-list {
+    margin-bottom: 45px;
+}
+
+.section-completed__list-navigation {
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    justify-content: space-between;
+    width: 60%;
+    list-style-type: none;
+}
+
+.section-completed__list-navigation .opacity {
+    opacity: 30%;
+}
+
+.section-completed {
+    height: 1074px;
+}
+
